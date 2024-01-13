@@ -1,0 +1,13 @@
+{
+    "name": "One Line Malicious Chrome Extension",
+    "version": "1.0.0",
+    "description": "Can you guess what this extention is doing?",
+    "manifest_version": 3,
+    "author": "MrEE",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["script.js"]
+        }
+      ]
+}
